@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Digi-X Internship Assessment</title>
+ <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+ <section class="calculator">
+  <form>
+   <input type="text" name="" id="calculates" class="screen">   
+  </form>
+   
+
+  <div class="buttons">
+   <!-- yellow -->
+   <button type="button" class="btn btn-yellow" data-num="*"  onclick="computate('*')">*</button>
+   <button type="button" class="btn btn-yellow" data-num="/"  onclick="computate('/')">/</button>
+   <button type="button" class="btn btn-yellow" data-num="-" onclick="computate('-')">-</button>
+   <button type="button" class="btn btn-yellow" data-num="+" onclick="computate('+')">+</button>
+   <!-- grey buttons -->
+   <button type="button" class="btn btn-grey" data-num="." onclick="computate('.')">.</button>
+   <button type="button" class="btn btn-grey" data-num="9" onclick="computate('9')">9</button>
+   <button type="button" class="btn btn-grey" data-num="8" onclick="computate('8')">8</button>
+   <button type="button" class="btn btn-grey" data-num="7" onclick="computate('7')">7</button>
+   <button type="button" class="btn btn-grey" data-num="6" onclick="computate('6')">6</button>
+   <button type="button" class="btn btn-grey" data-num="5" onclick="computate('5')">5</button>
+   <button type="button" class="btn btn-grey" data-num="4" onclick="computate('4')">4</button>
+   <button type="button" class="btn btn-grey" data-num="3" onclick="computate('3')">3</button>
+   <button type="button" class="btn btn-grey" data-num="2" onclick="computate('2')">2</button>
+   <button type="button" class="btn btn-grey" data-num="1" onclick="computate('1')">1</button>
+   <button type="button" class="btn btn-grey" data-num="0" onclick="computate('0')">0</button>
+   <button type="button" class="btn-equal btn-grey"  onclick="equalsButton()">=</button>
+   <button type="button" class="btn-clear btn-grey" onclick="clearButton()">C</button>
+
+
+  </div>
+
+
+
+
+
+ </section>
+
+
+
+
+
+ <script src="./app.js"></script>
+ 
+</body>
+
+</html>
